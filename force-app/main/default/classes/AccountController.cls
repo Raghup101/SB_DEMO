@@ -3,5 +3,5 @@ public with sharing class AccountController {
     return [SELECT Id,Name,Active__c FROM Account WHERE Active__c = 'Yes'];
   }
 
-  //Added COmment for OR-123
+  //Added COmment for OR-256
 }
